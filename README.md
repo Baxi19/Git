@@ -26,7 +26,7 @@ Añadir un commit a nuestra rama, también podemos ponerle un **-m** seguidament
 git commit
 ```
 
-Muestra configuraciones de git también podemos usar **–list** para mostrar la configuración por defecto de nuestro git y si añadimos **--show-origin inhales** nos muestra las configuraciones guardadas y su ubicación.
+Muestra configuraciones de git también podemos usar **-–list** para mostrar la configuración por defecto de nuestro git y si añadimos **--show-origin inhales** nos muestra las configuraciones guardadas y su ubicación.
 ```
 git config
 ```
