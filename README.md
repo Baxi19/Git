@@ -16,7 +16,7 @@ Añadir un archivo a nuestra rama seguidamente ponemos entre comillas el nombre 
 git add
 ```
 
-Borrar un archivo que hayamos añadido, para eliminarlo por completo de nuestra rama usamos **git rm --cached.**
+Borrar un archivo que hayamos añadido, para eliminarlo por completo de nuestra rama usamos **git rm --cached.** o bien puedes remover un solo archivo adjuntando el nombre del mismo y su extencion
 ```
 git rm
 ```
