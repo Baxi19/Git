@@ -47,8 +47,8 @@ Borrar un archivo que hayamos añadido, para eliminarlo por completo de nuestra 
 ```
 git rm archivo.jsx
 
-#se usa para devolver el archivo que se tiene en ram cuando escribimos 
-git add lo devuleve a estado natural mientra esta en staging
+# se usa para devolver el archivo que se tiene en ram cuando escribimos 
+# git add lo devuleve a estado natural mientra esta en staging
 git rm --cached
 ```
 
