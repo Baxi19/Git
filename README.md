@@ -1,9 +1,19 @@
 # Git
-Comandos en Github  :octocat:
+Comandos útiles en Github  :octocat:
 
 Iniciar un proyecto de git o determinar la carpeta en la que vamos a trabajar.
 ```
 git init  
+```
+
+Cambia de manera global el nombre del usuario, seguidamente ponemos entre comillas nuestro nombre.
+```
+git config --global user.name
+```
+
+Cambia de manera global el email del usuario, seguidamente ponemos entre comillas nuestro nombre.
+```
+git config --global user.email
 ```
 
 Saber si tenemos un archivo añadido o borrado en nuestro proyecto, para saber en la rama en la que estamos y si tenemos commits.
@@ -33,16 +43,6 @@ Muestra configuraciones de git también podemos usar **-–list** para mostrar l
 git config
 git config -–list
 git config -–list --show-origin inhales
-```
-
-Cambia de manera global el nombre del usuario, seguidamente ponemos entre comillas nuestro nombre.
-```
-git config --global user.name
-```
-
-Cambia de manera global el email del usuario, seguidamente ponemos entre comillas nuestro nombre.
-```
-git config --global user.email
 ```
 
 Para ver la historia de nuestros archivos, los commits, el usuario que lo cambió, cuando se realizaron los cambios etc. seguidamente ponemos el nombre de nuestro archivo.
