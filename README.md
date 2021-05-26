@@ -1,7 +1,7 @@
 # Git
 Comandos en Github  :octocat:
 
-Iniciar un proyecto de git odeterminar la carpeta en la que vamos a trabajar.
+Iniciar un proyecto de git o determinar la carpeta en la que vamos a trabajar.
 ```
 git init  
 ```
