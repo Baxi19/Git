@@ -16,17 +16,17 @@ Añadir un archivo a nuestra rama seguidamente ponemos entre comillas el nombre 
 git add
 ```
 
-Borrar un archivo que hayamos añadido, para eliminarlo por completo de nuestra rama usamosgit rm --cached.
+Borrar un archivo que hayamos añadido, para eliminarlo por completo de nuestra rama usamos **git rm --cached.**
 ```
 git rm
 ```
 
-Añadir un commit a nuestra rama, también podemos ponerle un -m seguidamente ponemos entre comillas nuestro ensaje.
+Añadir un commit a nuestra rama, también podemos ponerle un **-m** seguidamente ponemos entre comillas un mensaje que represente el commit.
 ```
 git commit
 ```
 
-muestra configuraciones de git también podemos usar **–list** para mostrar la configuración por defecto de nuestro git y si añadimos **--show-origin inhales** nos muestra las configuraciones guardadas y su ubicación.
+Muestra configuraciones de git también podemos usar **–list** para mostrar la configuración por defecto de nuestro git y si añadimos **--show-origin inhales** nos muestra las configuraciones guardadas y su ubicación.
 ```
 git config
 ```
