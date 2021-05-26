@@ -42,14 +42,13 @@ git add archivo.jsx
 git add .
 ```
 
-Leer el contenido de un archivo
-```
-cat archivo.jsx
-```
-
 Borrar un archivo que hayamos añadido, para eliminarlo por completo de nuestra RAM usamos **git rm --cached** o bien puedes remover un solo archivo adjuntando el nombre del mismo y su extencion
+
 ```
 git rm archivo.jsx
+
+#se usa para devolver el archivo que se tiene en ram cuando escribimos 
+git add lo devuleve a estado natural mientra esta en staging
 git rm --cached
 ```
 
@@ -61,4 +60,35 @@ git commit -m "Mensaje que represente el commit"
 Para ver la historia de nuestros archivos, los commits, el usuario que lo cambió, cuando se realizaron los cambios etc. seguidamente ponemos el nombre de nuestro archivo.
 ```
 git log archivo.jsx
+```
+
+```
+ls //listado de carpetas en donde me encuentro es decir dir en windows
+```
+```
+pwd //ubicacion actual
+```
+
+```
+mkdir //make directori nueva carpeta
+```
+
+```
+touch archivo.extencion//crear archivo vacio
+```
+
+```
+cat archivo.extencion//muestra el contenido del archivo
+```
+
+```
+history //historial de comandos utilizados durante esa sesion
+```
+
+```
+comando --help //ayuda sobre el comando
+```
+
+```
+checkout //traer cambios realizado
 ```
