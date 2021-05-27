@@ -52,7 +52,9 @@ git rm archivo.jsx
 git rm --cached
 ```
 
-Añadir un commit a nuestra rama, también podemos ponerle un **-m** seguidamente ponemos entre comillas un mensaje que represente el commit.
+Añadir un commit a nuestra rama, también podemos ponerle un **-m** seguidamente ponemos entre comillas un mensaje que represente el commit. 
+
+Importante en caso de que solo coloque **git commit** el sistema le abrira **VIM** un editor de codigo basado en linea de comandos,   solicita que ingrese un msj, para insertar texto se hace con la letra **Scape** + **i** luego se puede insertar texto,al hacerlo y para poder salir del editor es necesario usar la combinacion de teclas *Esc* + *Shift* + *z* + *z* y de esa manera se ejecuta el commit correctamente
 ```
 git commit -m "Mensaje que represente el commit"
 ```
@@ -62,31 +64,50 @@ Para ver la historia de nuestros archivos, los commits, el usuario que lo cambi�
 git log archivo.jsx
 ```
 
+Mostrar el contenido de un archivo
 ```
-ls //listado de carpetas en donde me encuentro es decir dir en windows
-```
-```
-pwd //ubicacion actual
+cat archivo.jsx 
 ```
 
+Para ver los cambios que se le han realizado a un archivo :fire: es super importante en casos de que necesites ver que cambios han sido realizados en un archivo especifico
 ```
-mkdir //make directori nueva carpeta
-```
-
-```
-touch archivo.extencion//crear archivo vacio
+git show archivo.jsx
 ```
 
+Listado de carpetas en donde me encuentro es decir **dir** en Windows
 ```
-cat archivo.extencion//muestra el contenido del archivo
-```
-
-```
-history //historial de comandos utilizados durante esa sesion
+ls 
 ```
 
+Para saber la ubicacion actual
 ```
-comando --help //ayuda sobre el comando
+pwd 
+```
+
+nueva carpeta
+```
+mkdir //make directori 
+```
+
+crear archivo vacio
+```
+touch archivo.extencion
+```
+
+Ver cambios entre commits especificos, es muy importante para saber los cambios entre los diferentes commits
+```
+git diff commitMasAntiguo commitMasReciente
+```
+
+historial de comandos utilizados durante esa sesion
+```
+history 
+```
+
+
+ayuda sobre el comando
+```
+comando --help
 ```
 
 ```
