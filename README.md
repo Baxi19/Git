@@ -108,7 +108,7 @@ mkdir nombreCarpeta
 
 Crear archivo vacio
 ```
-touch archivo.extencion
+touch archivo.jsx
 ```
 
 Ver cambios entre commits especificos, es muy importante para saber los cambios entre los diferentes commits
@@ -139,8 +139,12 @@ Ayuda sobre el comando
 comando --help
 ```
 
-
-traer cambios realizado
+Para traer cambios realizados en commits anteriores
 ```
-checkout 
+git checkout idCommit archivo.jsx
+```
+
+Para regresar los cambios a la version mas reciente se adjunta en nombre de la rama en este caso (master)
+```
+git checkout master archivo.jsx
 ```
