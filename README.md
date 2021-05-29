@@ -62,6 +62,9 @@ git commit -m "Mensaje que represente el commit"
 Para ver la historia de nuestros archivos, los commits, el usuario que lo cambió, cuando se realizaron los cambios etc. seguidamente ponemos el nombre de nuestro archivo.
 ```
 git log archivo.jsx
+
+# Para ver los cambios
+git log archivo.jsx --stat
 ```
 
 Mostrar el contenido de un archivo
