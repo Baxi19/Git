@@ -114,6 +114,9 @@ touch archivo.extencion
 Ver cambios entre commits especificos, es muy importante para saber los cambios entre los diferentes commits
 ```
 git diff commitMasAntiguo commitMasReciente
+
+# Para ver los cambios del directorio actual vrs el staging
+git diff
 ```
 
 Para volver a un commit especifico, se puede observar el nombre del commit al que se quiere ir con el comando **git log** luego que se tiene, se puede borrar todo lo que se creo de un commit especifico en adelante
