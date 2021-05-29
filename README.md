@@ -90,7 +90,10 @@ git show archivo.jsx
 
 Listado de carpetas en donde me encuentro es decir **dir** en Windows
 ```
-ls 
+ls
+
+# para ver los archivos ocultos
+ls -al
 ```
 
 Para saber la ubicacion actual
