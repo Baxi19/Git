@@ -84,12 +84,12 @@ Para saber la ubicacion actual
 pwd 
 ```
 
-nueva carpeta
+Crear nueva carpeta
 ```
-mkdir //make directori 
+mkdir nombreCarpeta
 ```
 
-crear archivo vacio
+Crear archivo vacio
 ```
 touch archivo.extencion
 ```
@@ -99,17 +99,29 @@ Ver cambios entre commits especificos, es muy importante para saber los cambios 
 git diff commitMasAntiguo commitMasReciente
 ```
 
+Para volver a un commit especifico, se puede observar el nombre del commit al que se quiere ir con el comando **git log** luego que se tiene, se puede borrar todo lo que se creo de un commit especifico en adelante
+```
+git reset idCommit --hard
+```
+
+Al igual que el anterior regresa a un commit especifico, pero deja lo que esta en staging, continua ahi mismo, es decir, si a realizado cambios y le ha dado **git add archivo.jsx**, esos cambios continuan ahi disponibles para el proximo commit (Solo el directorio de trabajo vuelve a la version anterior
+```
+git reset idCommit --soft
+```
+
+
+
 historial de comandos utilizados durante esa sesion
 ```
 history 
 ```
-
 
 ayuda sobre el comando
 ```
 comando --help
 ```
 
+traer cambios realizado
 ```
-checkout //traer cambios realizado
+checkout 
 ```
