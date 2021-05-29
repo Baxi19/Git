@@ -63,7 +63,7 @@ Para ver la historia de nuestros archivos, los commits, el usuario que lo cambi√
 ```
 git log archivo.jsx
 
-# Para ver los cambios
+# Para ver los cambios especificos
 git log --stat
 
 # Para traer cambios de hace 2 semanas
