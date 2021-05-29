@@ -64,7 +64,18 @@ Para ver la historia de nuestros archivos, los commits, el usuario que lo cambi�
 git log archivo.jsx
 
 # Para ver los cambios
-git log archivo.jsx --stat
+git log --stat
+
+# Para traer cambios de hace 2 semanas
+git log --since=2.weeks
+
+# otra opción realmente útil es --pretty. 
+# Cambia la salida del registro a formatos distintos a los predeterminados
+git log --pretty=oneline
+
+# Para ver solo informacion mas relevante se pueden agregar otras banderas
+git log --pretty=format:"%h - %an, %ar : %s"
+
 ```
 
 Mostrar el contenido de un archivo
@@ -112,17 +123,16 @@ Al igual que el anterior regresa a un commit especifico, pero deja lo que esta e
 git reset idCommit --soft
 ```
 
-
-
-historial de comandos utilizados durante esa sesion
+Historial de comandos utilizados durante esa sesion
 ```
 history 
 ```
 
-ayuda sobre el comando
+Ayuda sobre el comando
 ```
 comando --help
 ```
+
 
 traer cambios realizado
 ```
